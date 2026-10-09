@@ -20,4 +20,4 @@
 | | Task Completion Rate (TCR) | $100\%$ | **100.0%** | 100.0% | 100.0% | Successfully finished execution |
 | | Timeout / Aborted Demands | $0$ | **0** | 0 | 0 | Demands reaching timeout or turn limits |
 | **Pillar 4: Gate Reliability & Autonomy** | Gate Decision Accuracy (GDA) | $> 98\%$ | **84.2%** | 84.2% | 25.0% | Multi-class routing fidelity |
-| | Selective HITL Precision | $100\%$ | **100.0%** | 71.4% | 100.0% | Precision targeting non-nominal intents |
+| | Selective HITL Precision | $100\%$ | **100.0%** | 71.4% | N/A (Bypassed) | Precision targeting non-nominal intents |

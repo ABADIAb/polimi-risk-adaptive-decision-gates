@@ -439,7 +439,7 @@ def generate_comparative_report(
         f"| | Task Completion Rate (TCR) | $100\\%$ | **{p3_radg.get('task_completion_rate', 100.0):.1f}%** | {p3_hitl.get('task_completion_rate', 100.0):.1f}% | {p3_llm.get('task_completion_rate', 100.0):.1f}% | Successfully finished execution |",
         f"| | Timeout / Aborted Demands | $0$ | **{p3_radg.get('timeout_demands_count', 0) + p3_radg.get('max_turns_exceeded_count', 0)}** | {p3_hitl.get('timeout_demands_count', 0) + p3_hitl.get('max_turns_exceeded_count', 0)} | {p3_llm.get('timeout_demands_count', 0) + p3_llm.get('max_turns_exceeded_count', 0)} | Demands reaching timeout or turn limits |",
         f"| **Pillar 4: Gate Reliability & Autonomy** | Gate Decision Accuracy (GDA) | $> 98\\%$ | **{p4_radg.get('gda_rate', 0.0):.1f}%** | {p4_hitl.get('gda_rate', 0.0):.1f}% | {p4_llm.get('gda_rate', 0.0):.1f}% | Multi-class routing fidelity |",
-        f"| | Selective HITL Precision | $100\\%$ | **{p4_radg.get('selective_hitl_precision', 0.0):.1f}%** | {p4_hitl.get('selective_hitl_precision', 0.0):.1f}% | {p4_llm.get('selective_hitl_precision', 0.0):.1f}% | Precision targeting non-nominal intents |",
+        f"| | Selective HITL Precision | $100\\%$ | **{p4_radg.get('selective_hitl_precision', 0.0):.1f}%** | {p4_hitl.get('selective_hitl_precision', 0.0):.1f}% | N/A (Bypassed) | Precision targeting non-nominal intents |",
     ]
 
     summary_text = "\n".join(md_lines) + "\n"

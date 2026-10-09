@@ -1,6 +1,0 @@
-id,baseline,class,intent_text,expected_action,initial_action,final_action,success,hitl_count,elapsed_seconds,prompt_tokens,completion_tokens,total_tokens,crr,usem_score,semantic_agreement,pddl_valid,radg_decision
-intent_nom_01,always_on_hitl,I_Nominal,Establish an optical connection from Hamburg to Berlin with 100G capacity.,clarify,clarify,approve,True,1,12.8,7305,808,8113,1.00,1.0,0.0,True,approve
-intent_nom_02,always_on_hitl,I_Nominal,"Establish an optical connection from Hamburg to Berlin avoiding both Bremen and Hannover, with a minimum of 15 dB GSNR and a maximum of 3 hops.",clarify,clarify,approve,True,1,14.52,7402,924,8326,1.00,1.0,0.0,True,approve
-intent_nom_03,always_on_hitl,I_Nominal,Route traffic from Frankfurt to Cologne avoiding Mannheim with minimum 14 dB GSNR.,clarify,clarify,approve,True,1,14.36,7753,901,8654,1.00,1.0,0.0,True,approve
-intent_nom_04,always_on_hitl,I_Nominal,Provision an optical channel from Munich to Stuttgart via Ulm with GSNR at least 15 dB.,clarify,clarify,approve,True,1,9.72,7217,600,7817,1.00,1.0,0.0,True,approve
-intent_nom_05,always_on_hitl,I_Nominal,Connect Hannover to Bremen with minimum 16 dB GSNR.,clarify,clarify,approve,True,1,11.88,7440,745,8185,1.00,1.0,0.0,True,approve

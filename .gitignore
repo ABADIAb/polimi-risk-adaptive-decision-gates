@@ -31,6 +31,8 @@ htmlcov/
 .DS_Store
 *.swp
 *.swo
+.gga
+scratch/
 
 # LangSmith
 .langsmith/
@@ -58,3 +60,8 @@ docs/LLM_Wiki/wiki/weekly_reports/
 *.pdf
 !docs/LLM_Wiki/**/*.png
 !docs/LLM_Wiki/**/*.pdf
+!tests/evaluation/results/cross_model/20260930_110016/*.png
+!tests/evaluation/results/cross_model/20260930_110016/*.pdf
+!tests/evaluation/results/gpt-6-luna/20260928_111332/*.png
+!tests/evaluation/results/gpt-6-luna/20260928_111332/*.pdf
+
